@@ -1,0 +1,303 @@
+html {
+  font-size: 14px;
+}
+
+*{
+    text-decoration : none;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  
+}
+
+div .courseName {
+    background: url(237-2375011_big.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    bottom: 60px;
+    left: 0px;
+}
+
+div .course{
+    margin-top : 60px;
+    text-align : left;
+    margin-left : 30px;
+}
+
+div .course h1{
+
+    font-family : 'Times New Roman';
+    font-size : 40px;
+    font-weight : 100;
+    color : #29648f;
+    animation : fadeIn 2s;
+
+}
+
+div .course h2 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: 100;
+    color: #29648f;
+    margin-left : 180px;
+    animation : fadeIn 4s;
+}
+
+div .names{
+    margin-top : 100px;
+    text-align : left;
+    margin-left : 250px;
+}
+
+div .names h3 {
+    color: #29648f;
+    animation: fadeIn 5.5s;
+    
+}
+
+
+@keyframes fadeIn{
+    from{
+        opacity : 0;
+    }
+
+    to{
+        opacity : 1;
+    }
+}
+
+.table-container{
+    margin-top : 130px;
+}
+
+.table{
+    border-collapse : collapse;
+    margin : 25px 0;
+    font-size : 0.9em;
+    min-width : 400px;
+    border-radius : 5px 5px 0 0;
+    overflow : hidden;
+    box-shadow : 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+    background-color: #29648f;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,.table tr{
+    padding : 15px 20px;
+}
+
+.table tbody tr{
+    border-bottom : 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even){
+    background-color : #f3f3f3;
+
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #29648f;
+}
+
+#tableHead {
+    color: #29648f;
+}
+
+.tablebtn {
+    position: absolute;
+    top: 195px;
+    right: 130px;
+    display: inline-flex;
+    height: 30px;
+    padding: 0;
+    background: #29648f;
+    border : none;
+    outline : none;
+    border-radius : 5px;
+    overflow : hidden;
+    font-size : 16px;
+    font-weight : 500;
+    cursor : pointer;
+}
+
+.tablebtn:hover{
+    background : #008168;
+}
+
+.tablebtn:active{
+    background : #006e58;
+}
+.tablebtn-text a {
+    text-decoration: none;
+    color : white;
+}
+
+.tablebtn-icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.tablebtn-text, .tablebtn-icon {
+    
+    display: inline-flex;
+    align-items: center;
+    padding: 0 8px;
+    color: white;
+    height : 100%;
+}
+
+.tablebtn-icon{
+    font-size : 1.5em;
+    background : rgba(0,0,0,0.08);
+}
+
+.form{
+    font-size : 16px;
+
+}
+
+.form *{
+    box-sizing : border-box;
+    line-height : 1.5;
+}
+
+.form-group{
+    display : flex;
+    flex-direction : column;
+}
+
+.form-group > * {
+    align-self : flex-start;
+}
+
+.control-label{
+    font-weight : 600;
+    padding : 10px 0;
+}
+
+.form-control{
+    width : 100%;
+    max-width : 425px;
+    padding : 0.8em;
+    font-size : 0.9em;
+    outline : none;
+    border : 1px solid #dddddd;
+    border-radius : 4px;
+    background : #f9f9f9;
+    transition : background 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.form-control:focus{
+    background : #ffffff;
+}
+
+.form-control::placeholder{
+    color : #bbbbbb;
+}
+
+.formbtn {
+    position: absolute;
+    top: 80px;
+    right: 130px;
+    display: inline-flex;
+    height: 30px;
+    padding: 0;
+    background: #d13939;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.formbtn:hover {
+    background: #c32f2f;
+}
+
+.formbtn:active {
+    background: #a90c0c;
+}
+
+
+.formbtn-icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.formbtn-text, .formbtn-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    color: white;
+    height: 100%;
+}
+
+.formbtn-icon {
+    font-size: 1.5em;
+    background: rgba(0,0,0,0.08);
+}
+
+.createhtag {
+    color: #29648f;
+}
+
+.detailbtn {
+    position: absolute;
+    top: 80px;
+    right: 180px;
+    display: inline-flex;
+    height: 30px;
+    padding: 0;
+    background: #29648f;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.detailbtn:hover {
+    background: #008168;
+}
+
+.detailbtn:active {
+    background: #006e58;
+}
+
+
+#detailhtag {
+    color: #29648f;
+}
+
+#edithtag {
+    color: #29648f;
+}
+
+#deletehtag {
+    color: #29648f;
+}
